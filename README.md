@@ -9,7 +9,7 @@ The architecture of our proposed MS-DeJoC model is as follows
 After creating a virtual environment of python 3.7, run `pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt` to install all dependencies.
 
  - **Data Preparation**
-Download these web fine-grained datasets, namely [Web-CUB][https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-bird.tar.gz], [Web-Car][https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-car.tar.gz] and [Web-Aircraft][https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-aircraft.tar.gz]. Then uncompress them into `./data` directory.
+Download these web fine-grained datasets, namely [Web-CUB](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-bird.tar.gz), [Web-Car](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-car.tar.gz) and [Web-Aircraft](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-aircraft.tar.gz). Then uncompress them into `./data` directory.
 
 ## Running
 According to your own demand, modify the corresponding parameters in `Main_ms_dejoc.py`, such as `--bs`, `--net`, `--data`, `--gpu`, etc. You can also directly run `Main_ms_dejoc.py` to get the final result.
