@@ -6,10 +6,10 @@ from torch.autograd import Variable
 from torchvision import transforms, models
 import torch.nn.functional as F
 # from model import *
-# from model_layer import *
-# from Resnet import *
+from model_layer import *
+from Resnet import *
 # from Vgg import *
-from resnet_origine import ResNet_Origine
+# from resnet_origine import ResNet_Origine
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
